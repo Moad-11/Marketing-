@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:  'Poppins', sans-serif;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+body {
+    background-color: #efe3b8;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:30px 8%;
+    width: 100%;
+    background: transparent ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 25px;
+    color: #efe3b8;
+    font-weight: 500;
+    position: fixed;
+    margin: 40px 50px 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+.fahm {
+    width: 100%;
+    height: 100vh;
+    background : #a6603a ;
+    display: flex;
+    align-items: center;
+    padding: 50px 0% 0; 
+}
+.fahm1 {
+    position:absolute ;
+    margin: 0px 0px 200px 100px;
+    height: 300px;
+    border: 2px solid  none;
+    border-radius: 20px;
+     box-shadow:#211e1c 0px 2px 10px 0px;
+    
+}
+.fahm2 {
+    position:absolute ;
+    margin: 0px 0px 200px 625px;
+    height: 300px;
+    border: 2px solid  none;
+    border-radius: 20px;
+     box-shadow:#211e1c 0px 2px 10px 0px;
+}
+.fahm3 {
+    position:absolute ;
+    margin:0px 0px 200px 1130px;
+    height: 300px;
+    border: 2px solid  none;
+    border-radius: 20px;
+    box-shadow:#211e1c 0px 2px 10px 0px;
+}
+.pp {
+    position:absolute;
+    margin: 300px 0px 0px 115px;
+    font-size: 19px;
+    color: #f4d1b4;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+.ppp {
+    position:absolute;
+    margin: 300px 0px 0px 640px;
+    font-size: 19px;
+    color: #f4d1b4;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pppp {
+    position:absolute;
+    margin: 300px 0px 0px 1155px;
+    font-size: 19px;
+    color: #f4d1b4;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mm {
+    position:absolute;
+    margin: 175px 0px 0px 130px; 
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #efe3b8;
+    
+}
+.mmm {
+    position:absolute;
+    margin: 175px 0px 0px 690px; 
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #efe3b8;
+    
+}
+.mmmm {
+    position:absolute;
+    margin: 175px 0px 0px 1160px; 
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #efe3b8;
+    
+}
+.lo {
+    position:absolute ;
+    margin: 0px 0px 500px 0px;
+}
+.ho {
+    position:absolute ;
+    margin: 0px 0px 500px 0px;
+}
+.so {
+    position:absolute ;
+    margin:0px 0px 500px 0px;
+}
+.fy {
+    position:absolute ;
+    margin: 495px 0px 20px 200px;
+    border: 5px solid #7acf19;
+    border-radius: 20px;
+    padding:   0px 0px 20px 0px;
+    width: 100px;
+    height: 20px;
+    text-align:center;
+    background-color: #7acf19;
+}
+.fp {
+    position:absolute ;
+    margin: 580px 0px 20px 200px;
+    border: 5px solid #7980af;
+    border-radius: 20px;
+    padding:   0px 0px 20px 0px;
+    width: 100px;
+    height: 20px;
+    text-align:center;
+    background-color: #7980af;
+    color:aliceblue;
+}
+.uu {
+    position:absolute ;
+    margin: 495px 0px 20px 723px;
+    border: 5px solid #7acf19;
+    border-radius: 20px;
+    padding:   0px 0px 20px 0px;
+    width: 100px;
+    height: 20px;
+    text-align:center;
+    background-color: #7acf19; 
+}
+.ua {
+    position:absolute ;
+    margin: 580px 0px 20px 723px;
+    border: 5px solid #7980af;
+    border-radius: 20px;
+    padding:   0px 0px 20px 0px;
+    width: 100px;
+    height: 20px;
+    text-align:center;
+    background-color: #7980af;
+    color:aliceblue;
+}
+.ji {
+    position:absolute ;
+    margin: 495px 0px 20px 1236px;
+    border: 5px solid #7acf19;
+    border-radius: 20px;
+    padding:   0px 0px 20px 0px;
+    width: 100px;
+    height: 20px;
+    text-align:center;
+    background-color: #7acf19; 
+}
+.jo {
+    position:absolute ;
+    margin: 580px 0px 20px 1236px;
+    border: 5px solid #7980af;
+    border-radius: 20px;
+    padding:   0px 0px 20px 0px;
+    width: 100px;
+    height: 20px;
+    text-align:center;
+    background-color: #7980af;
+    color:aliceblue;
+}
